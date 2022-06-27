@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 const PORT = process.env.PORT || 5000 
 
-const MONGOURI ="mongodb+srv://thayan:12345@cluster0.1jxsw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const MONGOURI ="YOUR MONGO URI"
 
 
 mongoose.connect(MONGOURI,{ useNewUrlParser: true, useUnifiedTopology: true })
